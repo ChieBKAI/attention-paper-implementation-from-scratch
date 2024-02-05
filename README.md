@@ -14,6 +14,7 @@
   The model architecture is based on the Transformer described in the paper. The key components include:
   - Encoder: Composed of multiple layers, each containing a multi-head self-attention mechanism and a feedforward neural network.
   - Decoder: Similar to the encoder but also includes an additional multi-head attention layer to attend to the encoder's output.
+
   For a detailed explanation of the architecture, refer to Section 3 of the original paper.
 
 ## Training
