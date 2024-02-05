@@ -26,4 +26,4 @@
  - [Pytorch-Transformers](https://github.com/hkproj/pytorch-transformer)
 
 ## References
- - [Attention is all you need] (https://arxiv.org/abs/1706.03762)
+ - [Attention is all you need - Paper](https://arxiv.org/abs/1706.03762)
