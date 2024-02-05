@@ -1,4 +1,4 @@
-# attention-paper-implementation-from-scratch
+# "Attention is all you need" paper implementation
   This provides an overview and guidance for implementing the "Attention is All You Need" paper by Vaswani et al. (2017). The paper introduces the Transformer architecture, a model based solely on self-attention mechanisms, achieving state-of-the-art results in various natural language processing tasks.
 
 ## Introduction
