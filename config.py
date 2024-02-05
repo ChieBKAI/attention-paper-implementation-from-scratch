@@ -1,0 +1,20 @@
+# Config
+def get_config():
+    return {
+        'batch_size': 4,
+        'd_model': 512,
+        'h': 8,
+        'd_ff': 2048,
+        'num_layers': 6,
+        'dropout': 0.01,
+        'epochs': 12,
+        'lr': 1e-4,
+        'seq_len': 256,
+        'src_lang': 'en',
+        'tgt_lang': 'pt',
+        'model_folder': 'weights',
+        'model_filename': 'transformer_model_',
+        'preload': None,
+        'tokenizer_path': 'tokenizer_{0}.json',
+        'experiment_name': 'runs/transformer_model',
+    }
