@@ -25,7 +25,8 @@
   ![](https://i.imgur.com/xK0lClH.png)
 
 ## Inference
-  This is a sample for a translator from English to Italian with this Transformer model
+  This is a sample for a translator from English to Italian with this Transformer model:
+  
   ![](https://i.imgur.com/jBqLpeA.png)
   
 ## Acknowledgements
