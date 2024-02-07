@@ -1,4 +1,4 @@
-# "Attention is all you need" paper implementation
+# "Attention is All You Need" Paper Implementation
   This provides an overview and guidance for implementing the "Attention is All You Need" paper by Vaswani et al. (2017). The paper introduces the Transformer architecture, a model based solely on self-attention mechanisms, achieving state-of-the-art results in various natural language processing tasks.
 
 ## Introduction
@@ -22,6 +22,12 @@
   ```bash
   python trainer.py
   ```
+  ![](https://i.imgur.com/xK0lClH.png)
+
+## Inference
+  This is a sample for a translator from English to Italian with this Transformer model
+  ![](https://i.imgur.com/jBqLpeA.png)
+  
 ## Acknowledgements
  - [Opus Book](https://huggingface.co/datasets/opus_books)
  - [Pytorch-Transformers](https://github.com/hkproj/pytorch-transformer)
