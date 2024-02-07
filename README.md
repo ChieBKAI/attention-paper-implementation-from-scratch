@@ -29,9 +29,7 @@
   
   ![](https://i.imgur.com/jBqLpeA.png)
   
-## Acknowledgements
+## References
  - [Opus Book](https://huggingface.co/datasets/opus_books)
  - [Pytorch-Transformers](https://github.com/hkproj/pytorch-transformer)
-
-## References
  - [Attention is all you need - Paper](https://arxiv.org/abs/1706.03762)
