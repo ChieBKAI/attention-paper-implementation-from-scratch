@@ -1,6 +1,6 @@
 import torch
 from DataProcessing.tokenizer import Tokenizer
-from DataProcessing.causalMask import causal_mask
+from DataProcessing.causalMask import get_causal_mask
 
 def greedy_decode(model, source, source_mask, tokenizer_tgt, max_len, device):
     sos_idx = tokenizer_tgt.token_to_id('[SOS]')
@@ -15,7 +15,7 @@ def greedy_decode(model, source, source_mask, tokenizer_tgt, max_len, device):
             break
 
         # build mask for target
-        decoder_mask = causal_mask(decoder_input.size(1)).type_as(source_mask).to(device)
+        decoder_mask = get_causal_mask(decoder_input.size(1)).type_as(source_mask).to(device)
 
         # calculate output
         out = model.decode(encoder_output, source_mask, decoder_input, decoder_mask)
