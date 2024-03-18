@@ -27,7 +27,9 @@
 ## Inference
   This is a sample for a translator from English to Italian with this Transformer model:
   
-  ![](https://i.imgur.com/jBqLpeA.png)
+  ![](https://i.imgur.com/AF5vq47.png)
+  ![](https://i.imgur.com/ClULvM9.png)
+  ![](https://i.imgur.com/AOiqcRz.png)
   
 ## References
  - [Opus Book](https://huggingface.co/datasets/opus_books)
